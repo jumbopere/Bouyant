@@ -30,7 +30,7 @@ function About() {
                     <li>Current Number of Staff: 20</li>
                     <li>Registertion Number: 76574637</li>
 
-                    <li>Location: Lagos, Abuja, Kano, Port-Harcout.</li>
+                    <li>Location: Lagos, Abuja, Kano, Jos,  Port-Harcout.</li>
                 </ul>
                
             </div>

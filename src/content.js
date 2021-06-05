@@ -28,8 +28,8 @@ export default class Content extends Component{
                     <div style={{display:'flex', justifyContent:'center', flexWrap:'wrap'}}>
                         <ProductDetail name = "Cow Horn" item="horn" producer="Bouyant" location="Nigeria" />
                         <ProductDetail name = "Salted Omasum" item="omasum" producer="Bouyant" location="Nigeria"  />
-                        <ProductDetail name = "" item="bagofomasum" producer="Bouyant" location="Nigeria" />
-                        <ProductDetail name = "BitterKola" item="lettuce" producer="Bouyant" location="Nigeria"/>
+                        <ProductDetail name = "Fish" item="fish" producer="Bouyant" location="Nigeria" />
+                        <ProductDetail name = "BitterKola" item="Bitterkola" producer="Bouyant" location="Nigeria"/>
                       
                     </div>
                     <div style={{textAlign:"center"}}>

@@ -19,9 +19,10 @@ export default class ProductDetail extends Component{
     render(){
         return(
             <Wrapper>
-                <img 
-                    src={'./veggies/' + this.props.item + '.jpg'} 
+                <img  
+                    src={'./veggies/' + this.props.item + '.jpg'}
                     height="100px" 
+                    width = "100px"
                     alt={this.props.item} 
                     style={{borderRadius:'100%'}}
                     onClick={this.handleClick}

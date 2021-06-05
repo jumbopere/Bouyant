@@ -14,13 +14,14 @@ function Products() {
         <Wrapper>
             <h1>Products</h1>
             <div style={style}>
-                <ProductDetail   item="horn" producer="Bouyant" location="Nigeria" />
-                <ProductDetail item="saltedomasum" producer="Jane Kim" location="Victoria BC" price="2.00"/>
-                <ProductDetail item="carrot" producer="Megan Drake" location="Edmonton AB" price="1.30"/>
-                <ProductDetail item="lettuce" producer="Leon Popper" location="Ignace ON" price="0.99"/>
-                <ProductDetail item="apricot" producer="Bertha H. Squires" location="Ignace ON" price="1.76"/>
-                <ProductDetail item="bellpepper" producer="Blanche Bias" location="Macewan AB" price="1.68"/>
-                <ProductDetail item="peach" producer="Joyce Hoover" location="Harvest Hills, BC " price="2.99" />
+                <ProductDetail name = "Cow Horn"   item="horn" producer="Bouyant Ideal LTD" location=" Kano, Nigeria" />
+                <ProductDetail name = "Salted Beef Omasum" item="omasum" producer="Bouyant Ideal LTD" location="Jos" />
+                <ProductDetail name = "Fish" item="fish" producer="Bouyant Ideal LTD" location="Abuja" />
+                <ProductDetail name = "Bitterkola" item="Bitterkola" producer="Bouyant Ideal LTD" location="Port Harcourt" />
+                <ProductDetail name = "Beef Tail" item="" producer="Bouyant Ideal LTD" location="kaduna " />
+                <ProductDetail name = "Beef Pizzles" item="bellpepper" producer="Bouyant Ideal LTD" location="Onisha" />
+                <ProductDetail name = "Cow Skin" item="peach" producer="Bouyant Ideal LTD" location=" " />
+                <ProductDetail name = "Beef Tongue" item="peach" producer="Bouyant Ideal LTD" location=" " />
             </div>
         </Wrapper>     
     );

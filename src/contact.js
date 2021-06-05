@@ -10,7 +10,7 @@ function Contact() {
                 <p>You can call us in, or come in to the store and see for yourself our freash and delicious food.</p>
                 <h3>Reach Us At</h3>
                 <p>Gacoun Plaza, Opp. K Close, 23 Road, Festac Town,Lagos<br/> +234(0)8100895033<br/>
-              <a href = 'https://wa.me/+2347032968184'> +234(0)7032968184 </a>  <br/>
+              +234(0)7032968184 ]<br/>
               <a href ='https://gmail.com/weta5000'>  weta5000@gmail.com  </a> 
                 </p>
                 <h3>Open Hours</h3>
@@ -38,7 +38,7 @@ const Map = styled.div`
 
 const Wrapper = styled.div`
     background: linear-gradient(to bottom, rgba(212,228,239,0.5) 0%, rgba(134,174,204,0.5) 100%),
-                url(about.jpg) no-repeat fixed;
+                url(bgd.jpg) no-repeat fixed;
     padding: 10%;
     height: 100vh;
     overflow: auto;

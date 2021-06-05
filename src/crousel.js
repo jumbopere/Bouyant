@@ -33,7 +33,7 @@ export default class DivCarousel extends Component {
                 </div>
                 <div className="my-slide">
                     <Team customer='3' name='Geraldine Seydoux' 
-                        comment=" "/>
+                        comment="Staff of BOUYANT IDEAL LTD"/>
                 </div>
             </Carousel>
         );
