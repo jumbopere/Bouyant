@@ -7,7 +7,6 @@ import Home from './home';
 import About from './about';
 import Products from './products'
 import Contact from './contact';
-import Mission from './mission'
 import Pictures from './pictures'
 
 
@@ -28,7 +27,6 @@ function Container({location}){
                         <Route path="/gallery" component={Pictures} />
                        
                         <Route path="/contact" component={Contact} />
-                        <Route path="/mission" component={Mission} />
                         
                     </Switch>
                 </section>

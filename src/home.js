@@ -45,14 +45,15 @@ class Home extends Component {
                 </FadeInDiv>
                     
                 <div className="homepage">
-                    <h1>Importer and Exporter of:</h1>
+                    <h1>Bouyant Ideal LTD</h1>
                   
-                   <h4>Salted Beef Omasum, Beef Pizzles, Beef Tail, Cow Horns, Cow Skin, Bitter Kola</h4>
-                    <p className='info'>Gacoun Plaza, Opp. K Close, 23 Road, Festac Town,Lagos<br/> +234(0)8100895033
+                   <h4>Importer and Exporter of Agricultural products</h4>
+                    <p className='info'>Gacoun Plaza, Opp. K Close, 23 Road, <br/>
+                    Festac Town,Lagos<br/> +234(0)8100895033
                 +234(0)8100895033
                 <br/> weta5000@gmail.com</p>
                 <div style={{display:'flex', justifyContent:'center', flexWrap:'wrap'}}>
-                        <NavButton link="./about" title="Learn more about us"/>
+                        <NavButton link="./about" title="Learn about us"/>
                         <NavButton link="./products" title="Check our products"/>
                     </div>
                     <div className="scrollDown">

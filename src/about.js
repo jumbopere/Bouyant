@@ -21,7 +21,7 @@ function About() {
                 <p>
                   Bouyant Ideal LTD, a Agricultural import and export company based in Nigeria. We import and export various agricultural products such as: Salted Beef Omasum, Beef Pizzles, Cow  Horns, Beef Skin, Beef Tails, Beef Tongue, BitterKola etc.
                   We get our Products from different states in nigeria, where we have farms, ranch, Slaughter houses.
-                  Our Company is registered under "Nigerian Cooperate Commisio" 
+                  Our Company is registered under "Nigerian Cooperate Commision" 
               
                 </p>
                 <h3>Company Overview</h3>

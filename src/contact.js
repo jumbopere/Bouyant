@@ -7,16 +7,16 @@ function Contact() {
         <Wrapper>
             <h1>Contact</h1>
             <Map>
-                <p>You can call us in, or come in to the store and see for yourself our freash and delicious food.</p>
+                <p>You can call us in, or come in to our office and </p>
                 <h3>Reach Us At</h3>
                 <p>Gacoun Plaza, Opp. K Close, 23 Road, Festac Town,Lagos<br/> +234(0)8100895033<br/>
-              +234(0)7032968184 ]<br/>
-              <a href ='https://gmail.com/weta5000'>  weta5000@gmail.com  </a> 
+              +234(0)7032968184 <br/>
+          <a href = 'mailto: weta5000@gmail.com'> weta5000@gmail.com </a>   
                 </p>
                 <h3>Open Hours</h3>
                     <p>
                         Monday - Friday: 9:00AM - 6:00PM<br/>
-                        *Closed for Sunday and holidays.
+                        *Closed for Weekends and holidays.
                     </p>
                 <Iframe/>
             </Map>

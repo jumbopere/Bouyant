@@ -27,7 +27,7 @@ export default class Content extends Component{
                     <p>Agricultural products are 100% organic.we garunteed for the quality taste for your special meals.</p>
                     <div style={{display:'flex', justifyContent:'center', flexWrap:'wrap'}}>
                         <ProductDetail name = "Cow Horn" item="horn" producer="Bouyant" location="Nigeria" />
-                        <ProductDetail name = "Salted Omasum" item="omasum" producer="Bouyant" location="Nigeria"  />
+                        <ProductDetail name = "Salted Omasum" item="bf" producer="Bouyant" location="Nigeria"  />
                         <ProductDetail name = "Fish" item="fish" producer="Bouyant" location="Nigeria" />
                         <ProductDetail name = "BitterKola" item="Bitterkola" producer="Bouyant" location="Nigeria"/>
                       

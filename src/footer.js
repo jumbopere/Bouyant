@@ -1,6 +1,6 @@
 import React from 'react'
-import { Container, Box, Grid, Button} from '@material-ui/core'
-import { Facebook, Twitter, Instagram, Email} from '@material-ui/icons'
+import { Container, Box, Grid} from '@material-ui/core'
+import { Facebook, Twitter, Email, WhatsApp} from '@material-ui/icons'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
@@ -18,10 +18,11 @@ const Footer = () => {
            </Grid>
        
            <Grid item xs= {12} sm={4}>
-             <Box borderBottom ={1}> <a href='https://www.facebook.com' color ='inherit'> <Facebook/>Facebook</a> </Box>
-             <Box borderBottom ={1}> <a href='https://www.gmail.com' color ='#f7f7f7'><Email/>Gmail</a> </Box>
-             <Box borderBottom ={1}> <a href='https://www.instagram.com' color ='#f7f7f7'><Instagram/>Instagram</a> </Box>
-             <Box borderBottom ={1}> <a href='https://www.wa.me/+234' color ='#f7f7f7'><Twitter/>Twiiter</a> </Box>
+             <Box  component = {Link} href ='https://www.facebook.com' color ='inherit'> <Facebook/>Facebook </Box> <br/>
+             <Box  component = {Link} href ='https://www.facebook.com' color ='inherit'> <Twitter/>Facebook </Box> <br/>
+             <Box  component = {Link} href ='mailto:weta5000@gmail' color ='inherit'> <Email/>Email </Box> <br/>
+             <Box  component = {Link} href ='https://www.wa.me/+2348100895033' color ='inherit'> <WhatsApp/>Whatsapp </Box> <br/>
+           
            </Grid>
    
          </Grid>
