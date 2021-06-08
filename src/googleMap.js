@@ -10,10 +10,10 @@ export class Iframe extends Component{
                   google={this.props.google}
                   zoom={10}
                   style={mapStyles}
-                  initialCenter={{ lat: 33.649, lng: 130.263}}
+                  initialCenter={{ lat:6.4701, lng: 3.2741}}
 
                 >
-                    <Marker position={{ lat: 33.649, lng: 130.263}} />
+                    <Marker position={{ lat: 6.4703, lng:  3.2741}} />
                 </Map>
             </Wrapper>
         );
@@ -38,5 +38,5 @@ const mapStyles = {
 };
 
 export default GoogleApiWrapper({
-    apiKey: 'PASTE YOUR API KEY HERE'
+    apiKey: process.env.REACT_APP_GOOGLE_API
 })(Iframe);

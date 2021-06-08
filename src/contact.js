@@ -7,7 +7,7 @@ function Contact() {
         <Wrapper>
             <h1>Contact</h1>
             <Map>
-                <p>You can call us in, or come in to our office and </p>
+                
                 <h3>Reach Us At</h3>
                 <p>Gacoun Plaza, Opp. K Close, 23 Road, Festac Town,Lagos<br/> +234(0)8100895033<br/>
               +234(0)7032968184 <br/>

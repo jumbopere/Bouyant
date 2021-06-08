@@ -249,11 +249,7 @@ export const photos = [
       width: 3,
       height: 3
     },
-    {
-      src: `${L}`,
-      width: 3,
-      height: 3
-    },
+    
     {
       src: `${O}`,
       width: 3,
