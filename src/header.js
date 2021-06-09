@@ -6,7 +6,7 @@ export default class Header extends Component {
     render() {
         return (
             <Wrapper>
-                <img src="./logo.png" height="45px" alt="logo" />
+                <img src="./logo.png" height="35px" width = "35px" alt="logo" />
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About</Link></li>
