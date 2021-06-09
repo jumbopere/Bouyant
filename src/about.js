@@ -1,13 +1,12 @@
 import React from 'react';
 import styled from "styled-components";
-import weare from './pictures/weare.jpg'
+
 
 function About() {
     return(
         <Wrapper>
             <h1>About</h1>
             <div style={{backgroundColor:'rgba(244, 244, 244, 0.9)', padding:'10%', borderRadius:'5px'}}>
-                <img src= {weare} height="150px" alt="portrailt"/>
                 <span style={{
                     fontSize:'150px', 
                     lineHeight:'0.6em', 
