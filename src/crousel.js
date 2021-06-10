@@ -14,6 +14,7 @@ export default class DivCarousel extends Component {
                     showArrows={false} 
                     showStatus={false}
                     className="presentation-mode"
+                    style = {{color: 'white'}}
             >
                 <div className="my-slide">
                     <Team customer='1' name='Emmanuel' 

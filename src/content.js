@@ -15,13 +15,13 @@ export default class Content extends Component {
                 <div className="slide1">
                     <span style={{ fontSize: '150px', lineHeight: '0.6em', opacity: '0.2', userSelect: 'none' }}>&#10077;</span>
                     <h1>We Are:</h1>
-                    <p data-delighter="start:0.5;">
+                    <p data-delighter="start:0.5;" >
                         Bouyant Ideal LTD, Importer and Exporter of agricultural products like:<br />
                       Salted Beef Omasum, Cow Skin, BitterKola, Beef Tongue, Cow Horn,Beef Pizzles
                     </p>
                 </div>
 
-                <div className="slide2">
+                <div className="slide2" style ={{color: "white"}} >
                     <h1>Products</h1>
                     <p>Agricultural products are 100% organic.we garunteed for the quality taste for your special meals.</p>
                     <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
@@ -47,7 +47,7 @@ export default class Content extends Component {
                         <p>You can call us in, or come in to the store and see for yourself our freash and delicious food. </p>
                         <h3>Reach Us At</h3>
                         <p>  Gacoun Plaza, Opp. K Close, 23 Road, Festac Town,Lagos<br /> +234(0)8100895033<br />
-                +234(0)8100895033</p>
+                +234(0)7032968184</p>
                         <h3>Open Hours</h3>
                         <p>
                             Monday-Saturday:9:00AM - 6:00PM<br />
