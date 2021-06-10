@@ -13,7 +13,6 @@ export default class Content extends Component {
                 {/* Link Anchor */}
                 <section id='content'></section>
                 <div className="slide1">
-                    <img src={weare} height="150px" alt="portrailt" data-delighter="start:0.5;" />
                     <span style={{ fontSize: '150px', lineHeight: '0.6em', opacity: '0.2', userSelect: 'none' }}>&#10077;</span>
                     <h1>We Are:</h1>
                     <p data-delighter="start:0.5;">

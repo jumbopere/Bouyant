@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import VideoCover from 'react-video-cover';
+import {Link} from 'react-router-dom'
 import NavButton from './button';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
@@ -47,11 +48,11 @@ class Home extends Component {
                 <div className="homepage">
                     <h1>Bouyant Ideal LTD</h1>
                   
-                   <h4>Importer and Exporter of Agricultural products</h4>
+                   <h4 style = {{color: "white"}}>Exporter and Supplier of Agricultural products</h4>
                     <p className='info'>Gacoun Plaza, Opp. K Close, 23 Road, <br/>
                     Festac Town,Lagos<br/> +234(0)8100895033
-                +234(0)8100895033
-                <br/> weta5000@gmail.com</p>
+                    <Link to = {{pathname:'tel: +2347032968184'}} target = '_blank' style = {{textDecoration: "none"}}>+234(0)7032968184</Link> 
+                <br/> <Link to = {{pathname:'mailto: weta5000@gmail.com'}} target = '_blank' style = {{textDecoration: "none"}}>weta5000@gmail.com</Link></p>
                 <div style={{display:'flex', justifyContent:'center', flexWrap:'wrap'}}>
                         <NavButton link="./about" title="Learn about us"/>
                         <NavButton link="./products" title="Check our products"/>
