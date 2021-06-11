@@ -2,14 +2,24 @@ import React from 'react'
 import { Container, Box, Grid } from '@material-ui/core'
 import { Facebook, Twitter, Email, WhatsApp } from '@material-ui/icons'
 import { Link } from 'react-router-dom'
+import { createMuiTheme } from '@material-ui/core/styles'
 
 const Footer = () => {
+  const theme = createMuiTheme({
+    palette: {
+        primary:{
+            main: '#FF8A20',
+            dark: '#eb7f1d'
+        },
+  },      
+});
   return (
-    <footer>
-      <Box px={{ xs: 3, sm: 10 }} py={{ xs: 5, sm: 10 }} bgcolor='text.secondary' color='white'>
+    <footer className = 'just' >
+      <section id='footer'></section>
+      <Box px={{ xs: 3, sm: 10 }} py={{ xs: 5, sm: 10 }}>
         <Container maxWidth="lg">
 
-          <Grid container spacing={5}>
+          <Grid container spacing={4}>
             <Grid item xs={12} sm={4}>
               <Box component={Link} to='/about' style={{ textDecoration: 'none', color: 'white' }}  >About Us </Box> <br />
               <Box component={Link} to='/contact' style={{ textDecoration: 'none', color: 'white' }} >Contact Us </Box><br />
@@ -26,10 +36,12 @@ const Footer = () => {
             </Grid>
 
           </Grid>
-          <Box textAlign="center" pt={{ xs: 5, sm: 10 }} pb={{ xs: 5, sm: 0 }}>
+          <Box textAlign="center" pt={{ xs: 5, sm: 10 }} pb={{ xs: 0, sm: 0 }}>
             Bouyant Ideal LTD &reg; {new Date().getFullYear()}
           </Box>
         </Container>
+      
+
       </Box>
     </footer>
   )

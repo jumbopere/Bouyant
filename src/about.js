@@ -22,10 +22,24 @@ function About() {
                   Our goal has always being to satisfy our customers by supplying high quality products in line with international standard.  
               
                 </p>
+                <h3>Our History</h3>
+                <p>
+                
+We are commited to nurturing life. This is not limited to food production – it goes on to the projects, initiatives and causes that we embrace. To deliver quality products, we rely on a team that is dedicated to innovation every single day. We are more than 100  employees across the States in Nigeria. 
+
+Each member of our team is important to make Bouyant Ideal ltd one of the biggest agro product exporting company in Nigeria and West Africa at large. We are guided by values that serve as a compass for our work. The ethics in all our actions, the transparency in our chain of value and the innovation are unnegotiable stakes for us.
+
+However, we can’t do all that by ourselves: apart from our employees, we count on the support of over 30 integrated Contractors across Nigeria.  Operating in this manner expands the personal developmental possibilities in our employees. That is the constitution of our great community, which is diverse, entrepreneurial and passionate.
+
+<h3>OUR AIM</h3>
+Most important value is people. As simple as that. The people who aspire to and perform the activities that drive our company on its path of innovation, globalization, quality and sustainable management. This recognition has its origins in an internal culture that transcends walls, doors and hierarchies, which is the driving force that all employees transmit to and receive from one another. That’s the culture of our company, a set of initiatives, values and attributes that change everything: our connection to markets, the relations between managers and teams, the partnership between departments and even the motivation that drives us in our day-to-day activities. Engagement in this culture occurs transversally across the hierarchical structure and empowers each person: their expectations, their ideas and their positive inconformity that drives change throughout our company.
+
+Our company is a life philosophy, not a corporate one, in which we are the protagonists and responsible for expanding and transforming it in accordance with regional and cultural particularities. We believe in combining our differences to strengthen our relationships and ensure that everyone, from all units across the States, is working on the same page.
+
+                </p>
                 <h3>Company Overview</h3>
                 <ul>
                     <li>Established in 2010</li>
-                    <li>Current Number of Staff: 60</li>
                     <li>Registertion Number: 76574637</li>
 
                     <li>Head-Office: Lagos, Nigeria </li>

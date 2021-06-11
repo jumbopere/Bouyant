@@ -3,7 +3,7 @@ import VideoCover from 'react-video-cover';
 import {Link} from 'react-router-dom'
 import NavButton from './button';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-
+import { Email, Phone} from '@material-ui/icons'
 import styled, { keyframes } from 'styled-components';
 import { pulse } from 'react-animations';
 
@@ -47,18 +47,17 @@ class Home extends Component {
                     
                 <div className="homepage">
                     <h1>Bouyant Ideal LTD</h1>
-                  
                    <h4 style = {{color: "white"}}>Exporter and Supplier of Agricultural products</h4>
                     <p className='info'>Gacoun Plaza, Opp. K Close, 23 Road, <br/>
                     Festac Town,Lagos<br/> +234(0)8100895033
-                    <Link to = {{pathname:'tel: +2347032968184'}} target = '_blank' style = {{textDecoration: "none"}}>+234(0)7032968184</Link> 
-                <br/> <Link to = {{pathname:'mailto: weta5000@gmail.com'}} target = '_blank' style = {{textDecoration: "none"}}>weta5000@gmail.com</Link></p>
+                    <Link to = {{pathname:'tel: 07032968184'}} target = '_blank' style = {{textDecoration: "none"}}><Phone/>+234(0)7032968184</Link> 
+                <br/> <Link to = {{pathname:'mailto: weta5000@gmail.com'}} target = '_blank' style = {{textDecoration: "none"}}><Email/>weta5000@gmail.com</Link></p>
                 <div style={{display:'flex', justifyContent:'center', flexWrap:'wrap'}}>
                         <NavButton link="./about" title="Learn about us"/>
                         <NavButton link="./products" title="Check our products"/>
                     </div>
                     <div className="scrollDown">
-                        <AnchorLink href="#content" >&#10569;</AnchorLink>
+                        <AnchorLink href="#footer" >&#10569;</AnchorLink>
                     </div>
                 </div>
                     

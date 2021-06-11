@@ -1,6 +1,6 @@
 /*
-** Author: Takumi Minohara
-** Last updated: Aug-30-12019 
+** Author: Jumbo Pere
+** Last updated: Jun 2021 
 */
 
 .homepage{
@@ -17,8 +17,8 @@
 }
 
 .homepage h1{
-    color: #f2f2f2;
-    text-shadow: 9px 2px 2px rgba(0,0,0,0.4);
+    color: #FF8A20;
+
     font-family: 'Covered By Your Grace', cursive;
     font-size: 5vw;
     -webkit-user-select: none;
@@ -55,7 +55,7 @@
 
 .scrollDown a{
     text-shadow: #383838 0px 0px 0px;
-    font-size: 500%;
+    font-size: 600%;
     -webkit-transition: text-shadow .2s;
     transition: text-shadow .2s;
 }
@@ -72,6 +72,9 @@
     font-size: 2em;
 }
 
+.just {
+background-color: #FF8A20;
+}
 .content h1::after {
     border-bottom: solid 1px #FF8A20;
     bottom: 0;
