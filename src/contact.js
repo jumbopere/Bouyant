@@ -93,9 +93,9 @@ function Contact() {
 
                     <li> OSHAOB - OSHOGBO ABATTOIR OMASUM BRANCH - OSUN STATE</li>
 
-                    <li> JAAOB - JALINGO ABATTOIR OMASUM BRANCH - TARABA STATE</li>
+                    <li>36. JAAOB - JALINGO ABATTOIR OMASUM BRANCH - TARABA STATE</li>
                 </ul>
-             <Iframe />
+                
             </Map>
         </Wrapper>
     );
