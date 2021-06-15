@@ -18,7 +18,7 @@ function Contact() {
                 </p>
                 <h3>Open Hours</h3>
                 <p>
-                    Monday - Friday: 9:00AM - 6:00PM<br />
+                    Monday - Friday: 8:00AM - 3:00PM<br />
                         *Closed for Weekends and holidays.
                     </p>
                 <h3>Our Other Locations</h3>
