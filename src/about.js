@@ -6,7 +6,7 @@ function About() {
     return(
         <Wrapper>
             <h1>About</h1>
-            <div style={{backgroundColor:'rgba(244, 244, 244, 0.9)', padding:'10%', borderRadius:'5px'}}>
+            <div style= {{backgroundColor:'rgba(244, 244, 244, 0.9)', padding:'10%', borderRadius:'5px'}}>
                 <span style={{
                     fontSize:'150px', 
                     lineHeight:'0.6em', 

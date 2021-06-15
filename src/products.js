@@ -18,7 +18,7 @@ function Products() {
                 <ProductDetail name = "Salted Beef Omasum" item="bf" producer="Bouyant Ideal LTD" location="Nigeria" />
                 <ProductDetail name = "Fish" item="fish" producer="Bouyant Ideal LTD" location="Nigeria" />
                 <ProductDetail name = "Bitterkola" item="Bitterkola" producer="Bouyant Ideal LTD" location="Port Harcourt, Nigeria" />
-                <ProductDetail name = "Beef Tail" item="" producer="Bouyant Ideal LTD" location="kaduna, Nigeria " />
+                <ProductDetail name = "Beef Tail" item="bu" producer="Bouyant Ideal LTD" location="kaduna, Nigeria " />
                 <ProductDetail name = "Beef Pizzles" item="bt" producer="Bouyant Ideal LTD" location="Onisha, Nigeria" />
                 <ProductDetail name = "Cow Skin" item="af" producer="Bouyant Ideal LTD" location="Nigeria " />
                 <ProductDetail name = "Beef Tongue" item="bp" producer="Bouyant Ideal LTD" location="Nigeria" />
