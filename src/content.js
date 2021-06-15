@@ -36,10 +36,10 @@ export default class Content extends Component {
                     </div>
                 </div>
 
-                <div className="slide3">
+               {/* <div className="slide3">
                     <h1>Our Team</h1>
                     <DivCarousel />
-                </div>
+        </div>*/}
 
                 <div className="slide4">
                     <h1>Contact</h1>

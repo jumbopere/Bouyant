@@ -28,7 +28,7 @@ const Footer = () => {
             </Grid>
 
             <Grid item xs={12} sm={4}>
-              <Box component={Link} to={{ pathname: 'https://facebook.com' }} style={{ textDecoration: 'none', color: 'white' }} target='_blank' text-decoration='none'><Facebook />Facebook </Box> <br />
+              <Box component={Link} to={{ pathname: 'https://facebook.com/pg/Bouyantventurescomng-609089532846643' }} style={{ textDecoration: 'none', color: 'white' }} target='_blank' text-decoration='none'><Facebook />Facebook </Box> <br />
               <Box component={Link} to={{ pathname: 'https://twitter.com' }} target='_blank' style={{ textDecoration: 'none', color: 'white' }}> <Twitter />Twitter </Box> <br />
               <Box component={Link} to={{ pathname: 'mailto:weta5000@gmail.com' }} target='_blank' style={{ textDecoration: 'none', color: 'white' }}> <Email />Email </Box> <br />
               <Box component={Link} to={{ pathname: 'https://wa.me/+2348100895033' }} target='_blank' style={{ textDecoration: 'none', color: 'white' }}> <WhatsApp />Whatsapp </Box> <br />

@@ -50,7 +50,8 @@ class Home extends Component {
                    <h4 style = {{color: "white"}}>Exporter and Supplier of Agricultural products</h4>
                     <p className='info'>Gacoun Plaza, Opp. K Close, 23 Road, <br/>
                     Festac Town,Lagos<br/> +234(0)8100895033
-                    <Link to = {{pathname:'tel: 07032968184'}} target = '_blank' style = {{textDecoration: "none"}}><Phone/>+234(0)7032968184</Link> 
+                    <Link to = {{pathname:'tel: 07032968184'}} target = '_blank' style = {{textDecoration: "none"}}><br/>
+                    <Phone/>+234(0)7032968184</Link> 
                 <br/> <Link to = {{pathname:'mailto: weta5000@gmail.com'}} target = '_blank' style = {{textDecoration: "none"}}><Email/>weta5000@gmail.com</Link></p>
                 <div style={{display:'flex', justifyContent:'center', flexWrap:'wrap'}}>
                         <NavButton link="./about" title="Learn about us"/>
