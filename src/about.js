@@ -37,13 +37,7 @@ Most important value is people. As simple as that. The people who aspire to and 
 Our company is a life philosophy, not a corporate one, in which we are the protagonists and responsible for expanding and transforming it in accordance with regional and cultural particularities. We believe in combining our differences to strengthen our relationships and ensure that everyone, from all units across the States, is working on the same page.
 
                 </p>
-                <h3>Company Overview</h3>
-                <ul>
-                    <li>Established in 2010</li>
-                    <li>Registertion Number: 76574637</li>
-
-                    <li>Head-Office: Lagos, Nigeria </li>
-                </ul>
+              
                
             </div>
         </Wrapper>
