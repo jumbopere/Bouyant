@@ -1,6 +1,6 @@
 import React from 'react'
 import Gallery from "react-photo-gallery";
-import { Photos } from "./Photos";
+import { Photos } from "./photos";
 
 
 
