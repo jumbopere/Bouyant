@@ -9,7 +9,7 @@ import { pulse } from 'react-animations';
 
 import './App.css';
 import Content from './content';
-import Footer from './Footer';
+import Footer from './footer';
 
 const fadeInAnimation = keyframes`${pulse}`;
 const FadeInDiv = styled.div`animation: ${fadeInAnimation} 13s ease-in-out infinite;`;
