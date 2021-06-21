@@ -3,7 +3,7 @@ import './App.css';
 import {BrowserRouter as Router} from 'react-router-dom';
 
 import Header from './Head';
-import Container from './Container';
+import Container from './container';
 //import Footer from './footer'
 
 
