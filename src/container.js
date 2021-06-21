@@ -4,7 +4,7 @@ import { Switch, Route, withRouter } from "react-router-dom";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 import Home from './home';
-import About from './About';
+import About from './about';
 import Products from './Products'
 import Contact from './Contact';
 import Pictures from './Pictures'

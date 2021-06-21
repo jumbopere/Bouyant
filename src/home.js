@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import VideoCover from 'react-video-cover';
 import {Link} from 'react-router-dom'
-import NavButton from './Button';
+import NavButton from './button';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Email, Phone} from '@material-ui/icons'
 import styled, { keyframes } from 'styled-components';
 import { pulse } from 'react-animations';
 
 import './App.css';
-import Content from './Content';
+import Content from './content';
 import Footer from './Footer';
 
 const fadeInAnimation = keyframes`${pulse}`;
