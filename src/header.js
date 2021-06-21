@@ -6,7 +6,7 @@ export default class Header extends Component {
     render() {
         return (
             <Wrapper>
-                <img src="./logo.png" height="35px" width = "35px" alt="logo" />
+                <img src="./logo.png" height="35px" width = "60px" alt="logo" />
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About</Link></li>
@@ -23,7 +23,7 @@ const Wrapper = styled.div`
     height: 45px;
     display: flex;
     align-items: center;
-    background-color: rgba(0, 187, 255, 0.1);
+    background-color: #FF8A20;
     -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
     -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
@@ -36,19 +36,20 @@ const Wrapper = styled.div`
     ul{
         margin:0;
         padding:0;
+        float: right;
     }
     
     img{
         margin-right: auto; 
-        margin-left: 20px;
+        margin-left:0px;
     }
 
     li{
         display: inline-block;
-        margin-right:20px;
+        margin-right:10px;
         
         @media only screen and (max-width:480px){
-            margin-right: 5px;
+            margin-right: 3px;
         }          
 
         @media only screen and (max-width:320px){
@@ -60,7 +61,7 @@ const Wrapper = styled.div`
             font-size: 20px;
             color: #f7f7f7;
             transition: color .2s;
-            font-weight: 900;
+            font-weight: 600;
             
             @media only screen and (max-width:480px){
                 font-size: 15px;

@@ -21,7 +21,7 @@ export default class NavButton extends Component {
                     <Button 
                         type="submit"
                         variant="contained"
-                        size="large"
+                        size="medium"
                         color="primary"
                         component={Link}
                         to={this.props.link}

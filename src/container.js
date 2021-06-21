@@ -3,11 +3,13 @@ import styled from 'styled-components';
 import { Switch, Route, withRouter } from "react-router-dom";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 
-import Home from './home';
-import About from './about';
-import Products from './products'
-import Contact from './contact';
-import Pictures from './pictures'
+import Home from './Home';
+import About from './About';
+import Products from './Products'
+import Contact from './Contact';
+import Pictures from './Pictures'
+import Productx from "./Products/Products"
+import Productsx from './Products/Products';
 
 
 function Container({location}){
@@ -23,7 +25,7 @@ function Container({location}){
                     <Switch location={location}>
                         <Route exact path="/" component={Home} />
                         <Route path="/about" component={About} />
-                        <Route path="/products" component={Products} />
+                        <Route path="/products" component={Productsx} />
                         <Route path="/gallery" component={Pictures} />
                        
                         <Route path="/contact" component={Contact} />

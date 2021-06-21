@@ -21,10 +21,11 @@ export default class ProductDetail extends Component{
             <Wrapper>
                 <img  
                     src={'./veggies/' + this.props.item + '.jpg'}
-                    height="100px" 
-                    width = "100px"
+                    height="150px" 
+                    width = "150px"
+                    
                     alt={this.props.item} 
-                    style={{borderRadius:'100%'}}
+                    
                     onClick={this.handleClick}
                 />
                 <CSSTransition 
@@ -33,9 +34,9 @@ export default class ProductDetail extends Component{
                     timeout={200}
                 >
                     <div className="wrapper">
-                        <p>Item Name: {this.props.name}</p>
-                        <p>Product location: {this.props.location}</p>
-                        <p>Producer: {this.props.producer}</p>
+                        <p>{this.props.name}</p>
+                        <p></p>
+                        <p></p>
                         
                     </div>
                 </CSSTransition>
@@ -53,7 +54,7 @@ const Wrapper = styled.div`
     
     img{
         transition: border .1s ease-in;
-
+        border-radius: 100%;
         &:hover{
             box-sizing: border-box;
             border: solid 5px #FF8A20;

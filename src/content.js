@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 import './App.css';
-import ProductDetail from './productDetail';
-import NavButton from './button';
-import DivCarousel from './crousel';
+import ProductDetail from './ProductDetail';
+import NavButton from './Button';
+import DivCarousel from './Crousel';
 
 
 export default class Content extends Component {
@@ -21,20 +21,20 @@ export default class Content extends Component {
                     </p>
                 </div>
 
-                <div className="slide2" style ={{color: "white"}} >
+              {/*   <div className="slide2" style ={{color: "white"}} >
                     <h1>Products</h1>
                     <p></p>
                     <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
-                        <ProductDetail name="Cow Horn" item="horn" producer="Bouyant" location="Nigeria" />
-                        <ProductDetail name="Salted Omasum" item="bf" producer="Bouyant" location="Nigeria" />
-                        <ProductDetail name="Cow Skin" item="af" producer="Bouyant" location="Nigeria" />
-                        <ProductDetail name="BitterKola" item="Bitterkola" producer="Bouyant" location="Nigeria" />
+                        <ProductDetail name="Cow Horn" item="horn"  />
+                        <ProductDetail name="Salted Omasum" item="bf"  />
+                        <ProductDetail name="Cow Skin" item="af"  />
+                        <ProductDetail name="BitterKola" item="Bitterkola"  />
 
                     </div>
                     <div style={{ textAlign: "center" }}>
                         <NavButton link='./products' title='Check out more of our products' />
                     </div>
-                </div>
+                </div>*/}
 
                {/* <div className="slide3">
                     <h1>Our Team</h1>

@@ -14,7 +14,7 @@ function Contact() {
                 <p> <LocationOn />Gacoun Plaza, Opp. K Close, 23 Road, Festac Town,Lagos<br />
                     <a href="https://wa.me/+23480100895033" target="_blank" style={{ textDecoration: "none", color: "black" }}> <WhatsApp /> +234(0)8100895033</a><br />
                     <a href='tel: +07032968184' target='_blank' style={{ textDecoration: "none", color: 'black' }}><Phone /> +234(0)7032968184</a><br />
-                    <a href='mailto: weta5000@gmail.com' target="_blank" style={{ textDecoration: 'none', color: 'black' }}><Email fontSize='small' /> weta5000@gmail.com </a>
+                    <a href='mailto: contact@bouyantidealltd.com' target="_blank" style={{ textDecoration: 'none', color: 'black' }}><Email fontSize='small' /> contact@bouyantidealltd.com </a>
                 </p>
                 <h3>Open Hours</h3>
                 <p>

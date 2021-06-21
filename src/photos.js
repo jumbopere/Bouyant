@@ -1,8 +1,8 @@
-import { A,AA, AB, AC, AD, AE, AF, AG, AH, AI, AJ, AK, AL,AM, AN, AO, AP, AR, AS, AT, AU, AW, AV, AX, AY, AZ, B, BA, BB, BC, BD, BE, C, D, E, F, G, H, I, J, K, M, N, O, P, Q, R, S, T, BF} from "./pictures/index"
+import { A,AA, AB, AC, AD, AE, AF, AG, AH, AI, AJ, AK, AL,AM, AN, AO, AP, AR, AS, AT, AU, AW, AV, AX, AY, AZ, B, BA, BB, BC, BD, BE, C, D, E, F, G, H, I, J, K, M, N, O, P, Q, R, S, T, BF} from "./photos/index"
 
 
 
-export const photos = [
+export const Photos = [
     {
       src: `${B}` ,
       width: 3,

@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import VideoCover from 'react-video-cover';
 import {Link} from 'react-router-dom'
-import NavButton from './button';
+import NavButton from './Button';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Email, Phone} from '@material-ui/icons'
 import styled, { keyframes } from 'styled-components';
 import { pulse } from 'react-animations';
 
 import './App.css';
-import Content from './content';
-import Footer from './footer';
+import Content from './Content';
+import Footer from './Footer';
 
 const fadeInAnimation = keyframes`${pulse}`;
 const FadeInDiv = styled.div`animation: ${fadeInAnimation} 13s ease-in-out infinite;`;
@@ -41,9 +41,9 @@ class Home extends Component {
                     />
                 </Wrapper>
                 
-                <FadeInDiv style={{position:"absolute", top:"10px", right:'0'}}>
+              {/*  <FadeInDiv style={{position:"absolute", top:"10px", right:'0'}}>
                     <img className="logo" src="./logo.png" height="240px" alt="logo" />
-                </FadeInDiv>
+                </FadeInDiv>*/}
                     
                 <div className="homepage">
                     <h1>Bouyant Ideal LTD</h1>
@@ -52,7 +52,7 @@ class Home extends Component {
                     Festac Town,Lagos<br/> +234(0)8100895033
                     <Link to = {{pathname:'tel: 07032968184'}} target = '_blank' style = {{textDecoration: "none"}}><br/>
                     <Phone/>+234(0)7032968184</Link> 
-                <br/> <Link to = {{pathname:'mailto: weta5000@gmail.com'}} target = '_blank' style = {{textDecoration: "none"}}><Email/>weta5000@gmail.com</Link></p>
+                <br/> <Link to = {{pathname:'mailto: contact@bouyantidealltd.com'}} target = '_blank' style = {{textDecoration: "none"}}><Email/>contact@bouyantidealltd</Link></p>
                 <div style={{display:'flex', justifyContent:'center', flexWrap:'wrap'}}>
                         <NavButton link="./about" title="Learn about us"/>
                         <NavButton link="./products" title="Check our products"/>

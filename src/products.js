@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import ProductDetail from './productDetail';
+import ProductDetail from './ProductDetail';
 
 const style = {
     display:'flex', 
@@ -16,7 +16,6 @@ function Products() {
             <div style={style}>
                 <ProductDetail name = "Cow Horn"   item="horn" producer="Bouyant Ideal LTD" location=" Kano, Nigeria" />
                 <ProductDetail name = "Salted Beef Omasum" item="bf" producer="Bouyant Ideal LTD" location="Nigeria" />
-                <ProductDetail name = "Fish" item="fish" producer="Bouyant Ideal LTD" location="Nigeria" />
                 <ProductDetail name = "Bitterkola" item="Bitterkola" producer="Bouyant Ideal LTD" location="Port Harcourt, Nigeria" />
                 <ProductDetail name = "Beef Tail" item="bu" producer="Bouyant Ideal LTD" location="kaduna, Nigeria " />
                 <ProductDetail name = "Beef Pizzles" item="bt" producer="Bouyant Ideal LTD" location="Onisha, Nigeria" />

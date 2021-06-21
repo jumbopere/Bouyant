@@ -25,7 +25,7 @@ function About() {
                 <h3>Our History</h3>
                 <p>
                 
-We are commited to nurturing life. This is not limited to food production – it goes on to the projects, initiatives and causes that we embrace. To deliver quality products, we rely on a team that is dedicated to innovation every single day. We are more than 100  employees across the States in Nigeria. 
+We are commited to nurturing life. This is not limited to food production – it goes on to the projects, initiatives and causes that we embrace. To deliver quality products, we rely on a team that is dedicated to innovation every single day. We are have more than 100  employees across the States in Nigeria. 
 
 Each member of our team is important to make Bouyant Ideal ltd one of the biggest agro product exporting company in Nigeria and West Africa at large. We are guided by values that serve as a compass for our work. The ethics in all our actions, the transparency in our chain of value and the innovation are unnegotiable stakes for us.
 

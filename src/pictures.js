@@ -1,12 +1,12 @@
 import React from 'react'
 import Gallery from "react-photo-gallery";
-import { photos } from "./photos";
+import { Photos } from "./Photos";
 
 
 
 const Pictures = () => {
     return (
-      <Gallery photos={photos} />
+      <Gallery photos={Photos} />
 )
     
 }
