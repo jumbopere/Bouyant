@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 import './App.css';
-import ProductDetail from './ProductDetail';
-import NavButton from './button';
-import DivCarousel from './crousel';
+//import ProductDetail from './ProductDetail';
+//import NavButton from './button';
+//import DivCarousel from './crousel';
 
 
 export default class Content extends Component {
