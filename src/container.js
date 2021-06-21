@@ -7,7 +7,7 @@ import Home from './home';
 import About from './about';
 import Products from './Products'
 import Contact from './contact';
-import Pictures from './Pictures'
+import Pictures from './pictures'
 import Productx from "./Products/Products"
 import Productsx from './Products/Products';
 
