@@ -46,7 +46,7 @@ class Home extends Component {
                 </FadeInDiv>*/}
                     
                 <div className="homepage">
-                    <h1>Bouyant Ideal LTD</h1>
+                    <h1 style= {{color:"yellow"}}>BOUYANT IDEAL LTD</h1>
                    <h4 style = {{color: "white"}}>Exporter and Supplier of Agricultural products</h4>
                     <p className='info'>Gacoun Plaza, Opp. K Close, 23 Road, <br/>
                     Festac Town,Lagos<br/> +234(0)8100895033

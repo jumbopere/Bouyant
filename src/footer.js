@@ -21,15 +21,14 @@ const Footer = () => {
             </Grid>
 
             <Grid item xs={12} sm={4}>
-              <Box component={Link} to={{ pathname: 'https://facebook.com/pg/Bouyantventurescomng-609089532846643' }} style={{ textDecoration: 'none', color: 'white' }} target='_blank' text-decoration='none'><Facebook />Facebook </Box> <br />
-              <Box component={Link} to={{ pathname: 'https://twitter.com' }} target='_blank' style={{ textDecoration: 'none', color: 'white' }}> <LinkedIn />LinkedIn </Box> <br />
+              <Box component={Link} to={{ pathname: 'https://www.facebook.com/Omasum-beef-1730883923815317/' }} style={{ textDecoration: 'none', color: 'white' }} target='_blank' text-decoration='none'><Facebook />Facebook </Box> <br />
               <Box component={Link} to={{ pathname: 'mailto:contact@bouyantidealltd.com' }} target='_blank' style={{ textDecoration: 'none', color: 'white' }}> <Email />Email </Box> <br />
               <Box component={Link} to={{ pathname: 'https://wa.me/+2348100895033' }} target='_blank' style={{ textDecoration: 'none', color: 'white' }}> <WhatsApp />Whatsapp </Box> <br />
 
             </Grid>
 
           </Grid>
-          <Box textAlign="center" pt={{ xs: 5, sm: 10 }} pb={{ xs: 0, sm: 0 }}>
+          <Box textAlign="center" pt={{ xs: 5, sm: 10 }} pb={{ xs: 0, sm: 0 }} style= {{color: "yellow"}}>
             Bouyant Ideal LTD &reg; {new Date().getFullYear()}
           </Box>
         </Container>

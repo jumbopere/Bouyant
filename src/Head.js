@@ -158,9 +158,9 @@ import {
     };
   
     const femmecubatorLogo = (
-      <Typography variant="h6" component="h1" className={logo}>
-          <Link href ='/' style={{ textDecoration: 'none', color: 'white' }} >
-             <img src="./logo.png" alt="" height="25px" />   Bouyant Ideal LTD
+      <Typography variant="h6" component="h1" className={logo} >
+          <Link href ='/' style={{ textDecoration: 'none', color: 'yellow' }} >
+             <img src="./logo.png" alt="" height="25px" />   BOUYANT  IDEAL LTD
           </Link>
       </Typography>
     );

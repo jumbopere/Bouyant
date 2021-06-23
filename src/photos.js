@@ -1,4 +1,4 @@
-import { A,AA, AB, AC, AD, AE, AF, AG, AH, AI, AJ, AK, AL,AM, AN, AO, AP, AR, AS, AT, AU, AW, AV, AX, AY, AZ, B, BA, BB, BC, BD, BE, C, D, E, F, G, H, I, J, K, M, N, O, P, Q, R, S, T, BF} from "./photos/index"
+import { A,AA, AB, AC, AD, AE, AF, AG, AH, AI, AJ, AK, AL,AM, AN,DA, DB, DC, DD, DE, DF, DG, DH, DI, DJ, DK, DL, AO, AP, AR, AS, AT, AU, AW, AV, AX, AY, AZ, B, BA, BB, BC, BD, BE, C, D, E, F, G, H, I, J, K, M, N, O, P, Q, R, S, T, BF} from "./photos/index"
 
 
 
@@ -255,5 +255,67 @@ export const Photos = [
       width: 3,
       height: 3
     },
+    {
+      src: `${DA}`,
+      width: 3,
+      height: 3
+    },
+    {
+      src: `${DB}`,
+      width: 3,
+      height: 3
+    },
+    {
+      src: `${DC}`,
+      width: 3,
+      height: 3
+    },
+    {
+      src: `${DC}`,
+      width: 3,
+      height: 3
+    },
+    {
+      src: `${DD}`,
+      width: 3,
+      height: 3
+    },
+    {
+      src: `${DE}`,
+      width: 3,
+      height: 3
+    },
+    {
+      src: `${DF}`,
+      width: 3,
+      height: 3
+    },
+    {
+      src: `${DG}`,
+      width: 3,
+      height: 3
+    },
+    {
+      src: `${DH}`,
+      width: 3,
+      height: 3
+    },
+    {
+      src: `${DI}`,
+      width: 3,
+      height: 3
+    },
+    {
+      src: `${DJ}`,
+      width: 3,
+      height: 3
+    },
+    {
+      src: `${DK}`,
+      width: 3,
+      height: 3
+    },
+    
+    
   ];
   
